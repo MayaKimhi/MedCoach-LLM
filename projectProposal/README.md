@@ -26,4 +26,4 @@ We use [MedQuad dataset](https://www.kaggle.com/datasets/thedevastator/comprehen
 
 In addition, synthetic data is generated using LLM to expand coverage and create rich clinical scenarios.
 
-# Created by Maya Kimhi & Mai Werthaim as part of the “Introduction to Natural Language Processing” course
+#### Created by Maya Kimhi & Mai Werthaim as part of the “Introduction to Natural Language Processing” course
