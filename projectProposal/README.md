@@ -1,4 +1,4 @@
-# MedCoach: LLM-Powered Clinical Reasoning Trainer
+# MedCoach: LLM-Powered Clinical Reasoning Trainer 
 
 MedCoach is an AI-powered learning tool that helps medical students sharpen their diagnostic skills through interactive clinical case simulations. 
 The system generates realistic patient scenarios and evaluates student responses, providing immediate feedback and corrections.
