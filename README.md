@@ -48,6 +48,12 @@ Medical students often face theory-heavy training with limited hands-on diagnost
 
 ---
 ## Generated patient cases
+| Model          | Role                         |
+|----------------|------------------------------|
+| `Disease`    | Disease name |
+| `Full_case` | Patient case with all symptoms associated with the disease       |
+| `80_Percent_Case`  | The patient case with approximately 80% of the symptoms      |
+| `50_Percent_Case`   | The patient case with approximately 50% of the symptoms         |
 ---
 
 #### Created by Maya Kimhi & Mai Werthaim as part of the “Introduction to Natural Language Processing” course
