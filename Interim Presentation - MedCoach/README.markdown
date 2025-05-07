@@ -14,8 +14,6 @@ The input dataset (`df`) is expected to be a DataFrame with:
 - Columns for symptoms (binary indicators, e.g., `symptom_fever`, `symptom_cough`).
 - A `prognosis` column indicating the disease label.
 
-The notebook samples 100 random cases for processing (`df_sample`).
-
 ## Code Structure**
 
 ### EDA
