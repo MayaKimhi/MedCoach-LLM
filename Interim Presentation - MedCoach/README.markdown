@@ -8,7 +8,7 @@ The Notebook focuses on:
 3. **Baseline Model Evaluation**: Training and evaluating a PubMedBERT model (`microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract`) on generated patient cases to predict diseases at different symptom coverage levels (50%, 80%, and 100%).
 
 
-## Dataset - Diseases and their Symptoms (https://www.kaggle.com/datasets/shobhit043/diseases-and-their-symptoms)
+## Dataset - [Diseases and their Symptoms](https://www.kaggle.com/datasets/shobhit043/diseases-and-their-symptoms)
 
 The input dataset (`df`) is expected to be a DataFrame with:
 - Columns for symptoms (binary indicators, e.g., `symptom_fever`, `symptom_cough`).
@@ -16,41 +16,16 @@ The input dataset (`df`) is expected to be a DataFrame with:
 
 The notebook samples 100 random cases for processing (`df_sample`).
 
-## Usage
+## Code Structure**
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/disease-diagnosis-baseline.git
-   cd disease-diagnosis-baseline
-   ```
-
-2. **Set Up Environment**:
-   - Install dependencies listed in the Prerequisites section.
-   - Ensure Ollama is installed and running (`ollama serve`).
-
-3. **Run the Notebook**:
-   - Open `EDA_and_Baseline.ipynb` in Jupyter Notebook or JupyterLab.
-   - Execute the cells sequentially to:
-     - Perform EDA on the dataset.
-     - Install and configure Ollama with `medllama2` or `llama3.2:3b`.
-     - Generate patient cases for 100 diseases with full, 80%, and 50% symptom coverage.
-     - Save the generated cases to `patient_cases.csv`.
-     - Train and evaluate PubMedBERT on the generated cases for three stages (50%, 80%, 100% symptom coverage).
-
-4. **Outputs**:
-   - `patient_cases.csv`: Contains generated patient cases with columns `Disease`, `Full_Case`, `80_Percent_Case`, and `50_Percent_Case`.
-   - PubMedBERT evaluation results printed in the notebook, showing accuracy for each stage.
-
-## **Code Structure**
-
-## EDA
+### EDA
 - Removed duplicate rows and constant columns.
 - Added a `ones_count` column indicating the number of symptoms per case.
 - Grouped data by disease (`prognosis`) to assess sample distribution.
 - Filtered to retain cases with ≥ 4 symptoms.
 - Removed columns with a single unique value
 
-  ## Baseline
+  ### Baseline
   
   - Random Sampling: Selected 100 random examples from the filtered dataset.
 
@@ -68,7 +43,7 @@ The notebook samples 100 random cases for processing (`df_sample`).
   - `train_on()`: Trains and evaluates the model for each symptom coverage stage.
   - Training configuration uses Hugging Face `Trainer` with 3 epochs, a learning rate of 2e-5, and accuracy as the evaluation metric.
 
-## Results
+### Results
 
 The baseline evaluation yields the following accuracies:
 
