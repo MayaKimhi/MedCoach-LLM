@@ -47,6 +47,8 @@ Medical students often face theory-heavy training with limited hands-on diagnost
 | `PubMedBERT`   | Case generation evaluator         |
 
 ---
+## Generated patient cases
+---
 
 #### Created by Maya Kimhi & Mai Werthaim as part of the “Introduction to Natural Language Processing” course
 
