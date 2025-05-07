@@ -9,9 +9,9 @@ Medical students often face theory-heavy training with limited hands-on diagnost
 ---
 ## MedCoach Data
   ### Raw Data - Diseases and their Symptoms dataset
-- **Source:** (https://www.kaggle.com/datasets/shobhit043/diseases-and-their-symptoms)
+- **Source:** https://www.kaggle.com/datasets/shobhit043/diseases-and-their-symptoms
 - **Size:** 2564 rows | 400 symptoms | 133 unique diseases
-- Diseases and their Symptoms dataset provides a comprehensive collection of disease names and their associated symptoms, encoded in a one-hot manner.
+ Diseases and their Symptoms dataset provides a comprehensive collection of disease names and their associated symptoms, encoded in a one-hot manner.
  Each row in the dataset represents a single instance, such as a patient or case study, while each column represents a symptom or disease.
 
 ### Generated patient cases
