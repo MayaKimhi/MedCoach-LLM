@@ -16,7 +16,9 @@ Medical students often rely on static teaching methods that lack the complexity 
 
 ## The Dataset
 
-We use [MedQuad dataset](https://www.kaggle.com/datasets/thedevastator/comprehensive-medical-q-a-dataset?resource=download), which contains over 16,000 real-life medical questions and expert answers.
+We use [Diseases and their Symptoms]([https://www.kaggle.com/datasets/thedevastator/comprehensive-medical-q-a-dataset?resource=download](https://www.kaggle.com/datasets/shobhit043/diseases-and-their-symptoms)), which provides a comprehensive collection of disease names and their associated symptoms, encoded in a one-hot manner.
+Each row in the dataset represents a single instance, such as a patient or case study, while each column represents a symptom or disease. 
+Symptoms and diseases are encoded using binary values (0 or 1), where a value of 1 indicates the presence of the symptom or disease, and 0 indicates its absence.
 
 | Column | Description |
 |--------|-------------|
