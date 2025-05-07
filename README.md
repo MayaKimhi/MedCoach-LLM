@@ -18,8 +18,7 @@ Medical students often face theory-heavy training with limited hands-on diagnost
 ### Preprocessing
 - Duplicate removal
 - Removal of unused symptoms
-- Filtering: selecting cases with ≥4 symptoms
-- Random sampling of 100 patient cases
+- Filtering cases with ≥4 symptoms
 
 ### Patient Case Generation
    - Model: `MedLlama2`
@@ -36,7 +35,7 @@ Medical students often face theory-heavy training with limited hands-on diagnost
 ### Evaluation
    - Metrics: Accuracy, AUC, cosine similarity to expert answers
    - Model-based evaluation: `PubMedBERT`
-   - 
+     
 ---
 
 ## Models
