@@ -1,4 +1,4 @@
-# MedCoach EDA & Baseline with Patient Case Generation
+# MedCoach EDA & Baseline
 
 This repository contains a Jupyter Notebook (`EDA_and_Baseline.ipynb`) that performs Exploratory Data Analysis (EDA) and establishes a baseline for disease diagnosis using patient case generation and evaluation with PubMedBERT.
 
