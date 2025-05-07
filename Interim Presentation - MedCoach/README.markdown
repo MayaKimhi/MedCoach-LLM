@@ -66,8 +66,5 @@ These results indicate that PubMedBERT performs better with more complete sympto
    - PubMedBERT evaluation results printed in the notebook, showing accuracy for each stage.
 
 
-## Future Improvements
-
-
 
 
