@@ -56,7 +56,13 @@ The baseline evaluation yields the following accuracies:
 These results indicate that PubMedBERT performs better with more complete symptom information, as expected.
 
 ## Outputs:
-   - `patient_cases.csv`: Contains generated patient cases with columns `Disease`, `Full_Case`, `80_Percent_Case`, and `50_Percent_Case`.
+   - `Generated patient cases.csv`: Contains generated patient cases with columns `Disease`, `Full_Case`, `80_Percent_Case`, and `50_Percent_Case`.
+   - | Columns | Accuracy (approx.) |
+|-------------------|--------------------|
+| Disease              | 0.1820             |
+| Full_Case            | 0.1820             |
+| 80_Percent_Case            | 0.4932             |
+| 50_Percent_Case        | 0.7867             |
    - PubMedBERT evaluation results printed in the notebook, showing accuracy for each stage.
 
 
