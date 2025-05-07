@@ -57,12 +57,12 @@ These results indicate that PubMedBERT performs better with more complete sympto
 
 ## Outputs:
    - `Generated patient cases.csv`: Contains generated patient cases with columns `Disease`, `Full_Case`, `80_Percent_Case`, and `50_Percent_Case`.
-   - | Columns | Accuracy (approx.) |
-|-------------------|--------------------|
-| Disease              | 0.1820             |
-| Full_Case            | 0.1820             |
-| 80_Percent_Case            | 0.4932             |
-| 50_Percent_Case        | 0.7867             |
+| Column          | Column Description          |
+|----------------|------------------------------|
+| `Disease`    | Disease name |
+| `Full_case` | Patient case with all symptoms associated with the disease    |
+| `80_Percent_Case`  | The patient case with approximately 80% of the symptoms|
+| `50_Percent_Case`   | The patient case with approximately 50% of the symptoms |
    - PubMedBERT evaluation results printed in the notebook, showing accuracy for each stage.
 
 
