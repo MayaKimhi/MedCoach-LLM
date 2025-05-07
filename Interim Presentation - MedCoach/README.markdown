@@ -8,7 +8,7 @@ The Notebook focuses on:
 3. **Baseline Model Evaluation**: Training and evaluating a PubMedBERT model (`microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract`) on generated patient cases to predict diseases at different symptom coverage levels (50%, 80%, and 100%).
 
 
-## Dataset
+## Dataset - Diseases and their Symptoms (https://www.kaggle.com/datasets/shobhit043/diseases-and-their-symptoms)
 
 The input dataset (`df`) is expected to be a DataFrame with:
 - Columns for symptoms (binary indicators, e.g., `symptom_fever`, `symptom_cough`).
@@ -79,6 +79,10 @@ The baseline evaluation yields the following accuracies:
 | 100%              | 0.7867             |
 
 These results indicate that PubMedBERT performs better with more complete symptom information, as expected.
+
+## Outputs:
+   - `patient_cases.csv`: Contains generated patient cases with columns `Disease`, `Full_Case`, `80_Percent_Case`, and `50_Percent_Case`.
+   - PubMedBERT evaluation results printed in the notebook, showing accuracy for each stage.
 
 
 ## Future Improvements
