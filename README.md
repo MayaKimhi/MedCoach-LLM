@@ -48,8 +48,6 @@ Medical students often face theory-heavy training with limited hands-on diagnost
 
 ---
 
-## Authors
-- Mai Wertheim  
-- Maya Kimhi
+#### Created by Maya Kimhi & Mai Werthaim as part of the “Introduction to Natural Language Processing” course
 
 ---
